@@ -1,7 +1,7 @@
 [package]
 name = "Prozic-POS"
 version = "0.0.1"
-description = "Application TPE Prozic"
+description = "App TPE Prozic"
 authors = ["you"]
 license = ""
 repository = ""
