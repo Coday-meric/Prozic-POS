@@ -34,7 +34,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.prozic-pos.prod",
+      "identifier": "com.prozic-pos.dev",
       "longDescription": "Application de caisse, utile pour envoyer un montant au terminal de paiement. Conçu pour fonctionner avec l'API POS-ingenico_API",
       "macOS": {
         "entitlements": null,
