@@ -24,7 +24,7 @@ async function debit() {
   const client = await getClient();
   const response = await client.request({
     method: 'POST',
-    url: 'http://localhost:8000/debit',
+    url: 'http://192.168.0.128:8000/debit',
     body: Body.json({
       amount: greetInputEl.value
     }),

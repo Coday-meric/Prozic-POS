@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "Prozic-POS",
+    "productName": "Prozic TPE APP",
     "version": "0.0.1"
   },
   "tauri": {
@@ -34,8 +34,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
-      "longDescription": "",
+      "identifier": "com.prozic-pos.prod",
+      "longDescription": "Application de caisse, utile pour envoyer un montant au terminal de paiement. Conçu pour fonctionner avec l'API POS-ingenico_API",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -44,7 +44,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "Application TPE Prozic",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
