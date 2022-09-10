@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prozic TPE APP</title>
+  <script type="module" src="main.js" defer></script>
+</head>
+
+<body>
+<div class="container">
+  <h1>Prozic Paiement !</h1>
+
+  <div class="row">
+
+    <img src="/assets/prozic.png" class="logo prozic" alt="Prozic Logo"/>
+
+    <img src="/assets/card2.png" class="logo card" alt="Card Logo"/>
+
+  </div>
+
+  <p>Entrer un montant pour l'envoyer un terminal de paiement.</p>
+
+  <div class="row">
+    <div id="input">
+      <input id="greet-input" type="number" placeholder="Entrer un montant..."/>
+      <button type="button" onclick="debit()">Envoyer</button>
+    </div>
+  </div>
+
+  <a id="all-msg">
+    <p id="sucess-msg"></p>
+    <p id="msg"></p>
+    <p id="fail-msg"></p>
+  </a>
+
+
+</div>
+</body>
+</html>
